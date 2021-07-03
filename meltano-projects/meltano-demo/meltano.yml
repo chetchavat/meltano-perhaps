@@ -1,0 +1,8 @@
+version: 1
+send_anonymous_usage_stats: true
+project_id: 34a7145a-2022-4cca-a890-be132cfefd29
+plugins:
+  extractors:
+  - name: tap-csv
+    variant: meltano
+    pip_url: git+https://gitlab.com/meltano/tap-csv.git
